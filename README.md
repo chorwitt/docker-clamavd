@@ -8,11 +8,11 @@ is listening on exposed port `3310`.
 Usage
 -----
 
-    docker run -d -p 3310:3310 dinkel/clamavd
+    docker run -d -p 3310:3310 sonius1/clamavd
     
 or linked (this is how I use it)
 
-    docker run -d --name clamavd dinkel/clamavd
+    docker run -d --name clamavd sonius1/clamavd
     docker run -d --link clamavd:clamavd application-with-clamdscan-or-something
     
 Configuration (environment variables)
