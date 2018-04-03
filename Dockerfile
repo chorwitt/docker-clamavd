@@ -1,8 +1,8 @@
 FROM debian:jessie
 
-MAINTAINER Christian Luginbühl <dinkel@pimprecords.com>
+MAINTAINER Carson@Datica.com
 
-ENV CLAMAV_VERSION 0.99
+ENV CLAMAV_VERSION 0.99.4
 
 RUN echo "deb http://http.debian.net/debian/ jessie main contrib non-free" > /etc/apt/sources.list && \
     echo "deb http://http.debian.net/debian/ jessie-updates main contrib non-free" >> /etc/apt/sources.list && \
